@@ -9,8 +9,9 @@ const config = {
 
   reporter: "html",
   use: {
-    browserName: "firefox",
+    browserName: 'chromium',
     headless: false,
+    //screenshot
   },
 };
 module.exports = config;
